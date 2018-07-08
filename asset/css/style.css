@@ -50,7 +50,14 @@ font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: gray;
 }
-@media(min-width: 768px){ /* esta medida se encuentra en bootstrap-> overview-> responsive breakpoints */
+@media(min-width: 768px){ 
+  .carousel-caption{
+    font-size: 20%;
+  }
+  .img{
+    width: 250px;
+    height: 250px;
+  }
   #imgTestimonio{
     display: inline;
   }

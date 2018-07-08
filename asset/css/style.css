@@ -55,11 +55,9 @@ font-family: 'Montserrat', sans-serif;
     font-size: 20%;
   }
   .img{
-    width: 150px;
-    height: 150px;
-    margin: 0%;
-    padding: 0%;
+    columns: 3;
     display: inline-block;
+    font-size: 5px;
   }
   .fab{
     width: 30px;

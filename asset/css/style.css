@@ -1,0 +1,72 @@
+.dropdown{
+  position: absolute;
+  top:0;
+  height: 100vh; /* viewport height, usa el 100% de la altura de la pantalla*/
+  width: 90vw;  /* viewport width 90% del an*/
+  transition: 0.5s ease-out
+}
+#burgr{
+  border-radius: 5px ;
+  background-color: inherit;
+}
+#testimonios{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin-top: 10vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+  background-color: lightsalmon;
+}
+#imgTestimonio{
+margin: 10px;
+text-align: justify;
+border: solid gainsboro;
+padding: 1vh;
+border-radius: 2%;
+font-size: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+.btn-Registro{
+  border-radius: 15%;
+  background-color: white ;
+}
+#form{
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.bg-dark{
+  background-color: white;
+}
+#Iconos{
+  text-align: center;
+}
+#formulario{
+  color: white;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+#imagenes{
+  margin: 10%;
+}
+#carouselExampleIndicators{
+  margin: 10px;
+}
+#postal{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: gray;
+}
+@media(min-width: 768px){ /* esta medida se encuentra en bootstrap-> overview-> responsive breakpoints */
+  .menu{
+      width: 20vw; /*El menú va a tomar este ancho con pantallas de 768px hacia arriba*/
+  }
+#burgr{
+  border-radius: 5px;
+}
+  .menu_closed{
+      left:-20vw;
+  }
+}

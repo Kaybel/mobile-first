@@ -4,6 +4,11 @@
   margin-top: 10vh;
   font-family: 'Montserrat', sans-serif;
 }
+.carousel-caption{
+  font-size: 30px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
 .container-fluid{
   background-color: lightsalmon;
 }
